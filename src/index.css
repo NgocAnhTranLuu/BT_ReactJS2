@@ -1,0 +1,56 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.banner{
+    background: url("../public/img/background.jpg") top /cover;
+    height: 800px;
+}
+
+.banner_img{
+    /* overflow: hidden; */
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner_img img:first-child{
+   width: 175px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 41%;
+
+    
+}
+.banner_img img:last-child{
+   width: 300px;
+}
+
+.banner_item{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.banner_item p{
+    padding: 20px 0 10px;
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+.banner_item_kinh{
+    padding: 0 20px 40px;
+}
+.banner_item_kinh img{
+    cursor: pointer;
+    padding: 10px 20px;
+}
